@@ -1,0 +1,43 @@
+.info_box {
+    cursor: pointer !important;
+    flex: 1 !important;
+}
+
+.info_box:not(:last-child) {
+    margin-right: 10px;
+}
+
+.info_box_cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.info_box_total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
+
+.info_box_total {
+    padding-right: 5px;
+}
+
+#total {
+    color: black;
+    font-weight: bold
+}
+
+.info--selected {
+    border-top: 10px solid yellowgreen;
+}
+
+.info--Red {
+    border-color: red;
+}
+
+.info--green {
+    color: greenyellow !important;
+}
